@@ -9,7 +9,9 @@ This case study meticulously documents the end-to-end process of designing, conf
 
 1. Introduction
 
-In pursuit of practical experience and a deeper understanding of enterprise IT systems, I embarked on the creation of a homelab. The objectives were to:
+I wanted to build a homelab to really understand enterprise IT systems. I set out to secure a network with pfSense, use virtual machines, containerize applications, and even deploy a Python web app to test everything end-to-end and see if Docker could handle a new deployement as if I was deploying a more formal web application without the need of a third party actor.
+
+In a pursuit of a more practical experience and a deeper understanding of enterprise IT systems, I got on the creation of a homelab. The objectives were to:
 
 Establish a secure network perimeter using pfSense.
 
@@ -67,7 +69,7 @@ Adapter 1: NAT (WAN) – Providing internet access.
 
 Adapter 2: Internal Network (LAN) – Isolated network for internal communication.
 
-Upon installation, the LAN interface was assigned the IP address 192.168.100.1/24. The pfSense dashboard was accessible via https://192.168.100.1, allowing for further configuration.
+Upon installation, the LAN interface was assigned the IP address 192.168.100.1/24. The pfSense dashboard was accessible via https://192.168.100.1, allowing for further configuration. Setting up pfSense was a bit tricky at first, especially configuring the LAN and WAN interfaces, but once it was running, it was satisfying to see the dashboard come to life.
 
 <img width="1501" height="863" alt="image (1)" src="https://github.com/user-attachments/assets/67287434-f86f-423c-9ae6-ebee424fd7fe" />
 
@@ -94,6 +96,8 @@ startxfce4
 Additionally, Firefox was installed to access web interfaces:
 
 sudo apt install firefox -y
+
+Installing the Ubuntu GUI felt like a small victory because I could finally navigate visually rather than just the terminal.
 
 <img width="1509" height="867" alt="image (2)" src="https://github.com/user-attachments/assets/f615d6f2-e5b4-4ea4-aad4-b0a045e1858f" />
 
