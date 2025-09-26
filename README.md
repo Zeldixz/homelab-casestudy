@@ -157,8 +157,10 @@ The application was containerized and deployed:
 sudo docker build -t python-webapp .
 sudo docker run -d -p 5000:5000 python-webapp
 
+In this way the python-webapp was "pushed" to the Docker internal system, working as a tunnel for self-hosting the application inside our Docker as an image as I understand so far.
 
-The application was accessible via http://<Ubuntu-IP>:5000.
+
+The application was accessible via http://192.168.100.1:5000.
 
 5. Challenges and Resolutions
 
