@@ -192,4 +192,4 @@ Ubuntu Server Guide: https://ubuntu.com/server/docs
 
 Docker Documentation: https://docs.docker.com/
 
-Portainer Documentation: https://www.portainer.io/documentation
+Portainer Documentation: [https://www.portainer.io/documentation](https://docs.portainer.io/start/architecture)
