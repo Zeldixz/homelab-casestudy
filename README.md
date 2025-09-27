@@ -162,6 +162,9 @@ In this way the python-webapp was "pushed" to the Docker internal system, workin
 
 The application was accessible via http://192.168.100.1:5000.
 
+<img width="1506" height="863" alt="image (5)" src="https://github.com/user-attachments/assets/0026149c-aecf-4f4e-838c-688a57f0aa79" />
+
+
 5. Challenges and Resolutions
 
 Throughout the project, several challenges were encountered:
